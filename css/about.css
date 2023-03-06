@@ -1,0 +1,93 @@
+/* This file contains stying for the about.html page.
+Any other styling is contained in the styles.css stylesheet which contains universal styles */
+
+
+#about-header{
+  font-size:40px;
+  font-weight:bold;
+  color:white;
+  display: inline-block;
+  margin-left:25%;
+
+}
+
+.about-us{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  padding:2px;
+  margin-top:2%;
+  margin-left: 0;
+}
+
+#about-heading{
+  font-family: Effra,Minion Pro;
+  font-size:35px;
+  font-weight:bold;
+  color:black;
+}
+.about-mission{
+  font-family: Roboto;
+  font-size: 40px;
+  color:white;
+  font-weight: 600;
+  text-align: center;
+}
+
+#about-missionstatement{
+  font-family: Inria Serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color:white;
+  line-height: 30px;
+  margin-top:2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+
+
+.about-text{
+  grid-column-start: 1;
+  font-family:Patrick Hand,Roboto;
+  font-size:25px;
+  color:white;
+  padding-left:10%;
+}
+
+.about-image{
+   grid-column-start: 2;
+}
+
+.about-image img{
+   width: 95%;
+   height: 95%;
+   padding:20px;
+}
+
+@media(max-width: 500px){
+  .about-image img{
+    width: 250px;
+    height: 95%;
+    padding:10px;
+  }
+
+}
+
+.social-media-links{
+  margin-top:1px;
+  float:left;
+}
+
+.social-media-links img{
+  width:40px;
+  height:40px;
+}
+
+#about-background{
+  /* background-image:url("../img/back3.jpg"); */
+  background-image:url("../img/beaches (2).jpg");
+
+}

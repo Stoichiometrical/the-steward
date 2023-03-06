@@ -1,0 +1,83 @@
+/* This file contains any css code that is specific to any pages under the travel and destination category.
+Any universal styling is found in the styles.css file */
+
+
+#car-rental-background{
+  background-image:url("../img/bgcr2.jpg");
+}
+
+/* Background for the destination page */
+#destinations-intro{
+    background-image:url("../img/vic.jpg");
+}
+
+#destinations-body{
+    background-image:url("../img/t1.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Styling for the hotels page grid */
+.hotels-section{
+  display:grid;
+  row-gap:40px;
+  column-gap:0px;
+  grid-template-columns: 600px 400px;
+  grid-auto-rows: 400px 400px;
+  padding-left: 20px;
+  margin-left: 17%;
+
+}
+
+/* Styling for buttons in hotel section */
+.btn{
+  color:white;
+  width:125px;
+  height:50px;
+  background-color: blue;
+}
+
+.btn a:hover{
+  color:white;
+}
+
+#car-rentals-intro{
+ background-image: url("../img/bgcr2.jpg");
+}
+#car-rentals-intro p{
+  text-shadow: 3px 3px black;
+}
+#car-rentals-intro h1{
+  text-shadow: 3px 3px black;
+}
+
+#travel-intro{
+  background-image: url("../img/beaches (2).jpg");
+
+}
+#rentals-copy{
+  font-family: Roboto;
+  font-weight: bold;
+  color:white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+#hotels-intro{
+  background-image: url("../img/op1.jpg");
+  padding-bottom: 10px;
+}
+
+#hotels-header{
+    font-family: Roboto;
+    font-weight: bold;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}
+
+@media (max-width:500px) {
+    
+}

@@ -1,0 +1,39 @@
+/* This stylesheet contains styles that are file specific to files in the entertainment catergory.
+Other styles are either inherited from other stylesheets or a inherited and changed to match specifications. */
+
+/* intro section for cinemas page */
+#cinema-intro{
+  background-image: url("https://images.pexels.com/photos/3137890/pexels-photo-3137890.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  padding-bottom:5%;
+
+}
+
+#event-intro{
+  background-image: url("https://images.pexels.com/photos/50675/banquet-wedding-society-deco-50675.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  padding-bottom:5%;
+  /* background-position: center; */
+}
+
+#restaurant-intro{
+  background-image: url("../img/res1.jpg");
+  padding-bottom:5%;
+}
+
+#entertainment-intro{
+  background-image: url("../img/dance1.jpg");
+  padding-bottom:5%;
+}
+
+/* This is an adaption of the travel copy id with a slight change in dimensions */
+#entertainment-copy{
+  font-family: Roboto;
+  font-weight: bold;
+  color:white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#entertainment-copy:hover {
+  color: yellow;
+}

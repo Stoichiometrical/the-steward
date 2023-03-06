@@ -1,0 +1,189 @@
+/* This file contains the CSS code specific to the health category.
+Any other universal layouts are contained in the styles.css file */
+
+#health-intro{
+  background-image: url("../img/b47.jpg");
+  background-position: top;
+  width: 100%;
+  border-radius:5px;
+  margin-top:0;
+}
+
+#hospital-intro{
+  background-image: url("../img/hos2.jpg");
+  text-shadow: 2px 2px black;
+
+}
+/* Removing text shadow from other affected elements  in the intro*/
+#hospital-intro nav {
+  text-shadow: none;
+}
+
+.details{
+  display:inline-block;
+  margin-left: 35%;
+}
+#gyms-intro{
+    background-image: url("../img/y2.jpg");
+    padding-bottom:5%;
+
+}
+
+
+
+/* Styling for main text on health page */
+#maintxt{
+  font-family: Roboto;
+  font-weight: bold;
+  color:white;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#maintxt:hover{
+  color:yellow;
+}
+
+/* Spans that allow lines to have different left margin values to create diffrent text levels */
+#first-line{
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+/*variation to meet constraints of certain pages(id conflict)*/
+.first-line{
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+#second-line{
+  margin-left: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+#last-line{
+  margin-left: 7%;
+}
+
+/* Body styling */
+#hospitals-body{
+  background-image: url("../img/hos3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-clip: content-box; */
+
+}
+
+#gyms-body{
+  background-image: url("https://wallpaperaccess.com/full/1353541.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* An adaption of the intro class for the hospital page with modifications in height to suite the requirements of hospitals page */
+.intro-hos{
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display:inline-block;
+  width:100vw;
+  margin-top:0;
+  margin-bottom:2%;
+  position: relative;
+  padding-bottom:8%;
+}
+
+
+/* Adaption of the maintxt id */
+#maintxt-hos{
+  font-family: Roboto;
+  font-weight: bold;
+  color:white;
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  margin-left:20%;
+  margin-right:38%;
+  margin-bottom: 2%;
+  padding-top: 2%;
+}
+
+#maintxt-hos:hover{
+  color:white;
+}
+
+/* This is an adaption of the cars section class.
+The adaption is to counter the margin-bottom property since in hospitals.html we used it for single two column grids */
+.cars-section-hos{
+  display:grid;
+  row-gap:40px;
+  column-gap:0px;
+  grid-template-columns: 600px 400px;
+  grid-auto-rows: 400px 400px;
+  padding-left: 20px;
+  margin-left: 17%;
+  margin-bottom: 1%;
+}
+
+/* Adaption of the pageheaders class to match for the contraints of the gyms.html page */
+.pageheaders-gym{
+  font-size: 45px;
+  color:white;
+  margin-left:20%;
+  margin-bottom:5%;
+  margin-top:2em;
+}
+
+/* Adaption of the texts id for the gyms texts because gyms have more information
+and thus some dimensions need to be tweeaked for it to display nicely */
+.texts-gym{
+  display:flex;
+  font-family: Roboto;
+  font-weight: bold;
+  color:white;
+  position:absolute;
+  top:14em;
+  flex-flow: column wrap;
+  left:50%;
+}
+
+.texts-gym a{
+  text-decoration: none;
+  color:white;
+}
+
+.texts-gym a:hover{
+  color: yellow;
+}
+
+
+
+/* Hospital paragraphs */
+.hos-paragraphs{
+  display:inline-block;
+  font-weight: bold;
+  margin-left: 1%;
+  margin-right: 2%;
+}
+
+
+#hos-button{
+  display:block;
+  text-align: center;
+  text-decoration: none;
+  align-items:center;
+  margin-left: 45%;
+  padding: 10px;
+}
+
+#hos-button a:hover{
+  color:white;
+  text-decoration: none;
+  text-align: center;
+
+}

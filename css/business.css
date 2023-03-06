@@ -1,0 +1,41 @@
+/* This file contains CSS code for all pages related to the business
+category except for the universal styles contained in the main css file universal.css */
+
+
+.business-copy{
+  display: inline;
+  margin-right:20%;
+  font-weight: bold;
+  font-size:25px;
+  /* margin-left:12%; */
+}
+
+#business-background{
+  background-image: url("../img/bp78.jpg");
+}
+
+@media (max-width:500px){
+  #business-background{
+    background-image: url("../img/bs2.jpg");
+  }
+}
+
+#business-main{
+    background-image: url("https://images.pexels.com/photos/188035/pexels-photo-188035.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    padding-bottom:2em;
+    margin-top:0;
+}
+
+
+#parks-intro{
+  background-image: url("../img/bp1.jpg");
+  padding-bottom:2em;
+  margin-top:0;
+  background-position: center;
+}
+
+
+#parks-body{
+  /*background-image: url("https://images.pexels.com/photos/3010971/pexels-photo-3010971.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");*/
+  background-image: url("../img/bp6.jpg");
+}
